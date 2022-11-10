@@ -1,0 +1,133 @@
+/* ELEMENTS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+:root {
+    --color-bg:#E5E5E5;
+    --color-card: #F0F0F0;
+    --color-green:#38AF90;
+    --color-white: #FFFFFF;
+    --color-gray: #797979;
+    --color-pink: #DD7E92;
+    --color-bg-footer: #383838;
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+/* MENU */
+
+.nav-container {
+    background-color: var(--color-green);
+    
+    box-shadow: -2px 2px 9px var(--color-gray);
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+}
+
+.nav-main h1 {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 30px 0 30px 10px;
+    
+}
+
+.profile-avatar {
+    width: 62px;
+    height: 62px;
+    margin: 14px 10px 14px 0;
+}
+
+.nav-main ul li a {
+  display: none;
+}
+
+/* MAIN AND SECTIONS */
+
+.notice {
+    color: var(--color-gray);
+    font-size: 1.8rem;
+    font-weight: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 24px 0;
+}
+
+#notice{
+   background-color: var(--color-card);
+   padding: 0 10px 0 10px;
+
+}
+
+.notice-container h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--color-green);
+    padding: 16px 12px 3px 12px;
+}
+
+.notice-container h4 {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-gray);
+    margin: 0 13px 0 13px;
+    border-bottom: 1px  solid var(--color-green);
+    padding-bottom: 3px;
+}
+
+.notice-container h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-pink);
+    padding: 21px 16px;
+}
+
+.notice-container span {
+    margin: 0 13px 0 13px;
+    color: var(--color-green);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.notice-container p {
+    font-size: 10px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+.notice-1{
+    border-radius: 8px;
+    box-shadow: 0px 13px 14px 0px var(--color-gray);
+}
+
+
+
+.notice-2{
+    order-radius: 8px;
+    box-shadow: 0px 13px 14px 0px var(--color-gray);
+    padding-top: 44px;
+}
